@@ -16,4 +16,4 @@ links = soup.find_all("a")
 for a in links:
     href = a.attrs["href"]
     text = a.string
-    pnt(text, ">", href)
+    print(text, ">", href)
